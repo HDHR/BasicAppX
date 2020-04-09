@@ -1,12 +1,13 @@
 package org.aplas.basicappx;
 
 public class Temperature {
-    Temperature(){
+    Temperature() {
         this.celcius = 0;
     }
     private double celcius;
     private double fahrenheit;
     private double kelvins;
+
 
     public void setCelcius(double celcius) {
         this.celcius = celcius;
